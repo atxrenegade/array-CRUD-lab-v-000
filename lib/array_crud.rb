@@ -22,7 +22,7 @@ def remove_element_from_start_of_array(array)
   array.shift
 end
 def retrieve_element_from_index(array, index)
-  array[index].index
+  array[index]
 end
 def retrieve_first_element_from_array(array)
   array.first
